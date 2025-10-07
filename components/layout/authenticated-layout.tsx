@@ -22,9 +22,9 @@ export function AuthenticatedLayout({ children }: AuthenticatedLayoutProps) {
           'peer-data-[variant=inset]:has-[[data-layout=fixed]]:h-[calc(100svh-(var(--spacing)*4))] rounded-none',
         )}
       >
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4 p-4">
           <Header />
-          <div className="flex-1 p-4">{children}</div>
+          <div className="flex-1 mt-4">{children}</div>
         </div>
       </SidebarInset>
     </SidebarProvider>

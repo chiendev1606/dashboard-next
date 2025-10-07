@@ -19,7 +19,7 @@ export function AppSidebar() {
   return (
     <Sidebar
       collapsible={'icon'}
-      variant={'inset'}
+      variant={'sidebar'}
     >
       <SidebarHeader className="flex justify-center items-center">
         {!isMobile && (

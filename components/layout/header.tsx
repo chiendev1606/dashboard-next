@@ -9,7 +9,7 @@ function Header() {
     return <HeaderMobile />;
   }
 
-  return <div>Header</div>;
+  return <h1 className="text-2xl font-bold">Welcome back, John Doe</h1>;
 }
 
 export default Header;
